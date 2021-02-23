@@ -18619,6 +18619,8 @@ in
     unifi6;
   unifi = unifi6;
 
+  unifi-video = callPackage ../servers/unifi-video { };
+
   urserver = callPackage ../servers/urserver { };
 
   victoriametrics = callPackage ../servers/nosql/victoriametrics { };
